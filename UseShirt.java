@@ -32,7 +32,8 @@ public class UseShirt {
 		}
 	
 		if(min>2000) {
-			System.out.println(min+"it is costly");
+			System.out.println(min+"it is very costly");
+			System.out.println("very costly");
 		}
 		else {
 					throw new Exception("affordable price");

@@ -64,6 +64,7 @@ public class UseStudent {
 		System.out.println(first10val);
 		Integer sum=id.stream().mapToInt(Integer::intValue).sum();
 		System.out.println(sum);
+		
 	}
 
 }
